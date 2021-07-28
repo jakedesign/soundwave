@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "matahari extended 400";
+    src: url(../matagari_font/MatahariExtended-400ExtReg.ttf);
+}
+@font-face {
+    font-family: "matahari extended 600";
+    src: url(../matagari_font/MatahariExtended-600ExtSemBd.ttf);
+}
+@font-face {
+    font-family: "matahari extended 700";
+    src: url(../matagari_font/MatahariExtended-700ExtBold.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #2A2828;
+    font-family: "matahari extended 400";
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #3554A7;
+}
+
+img {
+    width: 100%;
+}
+
+.nav-container {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    margin-bottom: 2vh;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    margin: 20px;
+}
+
+.nav-links li {
+    font-family: "matahari extended 400";
+    list-style: none;
+    display: inline;
+    align-items: center;
+    padding: 0 0 0 60px;
+    font-size: 16px;
+}
+
+.nav-links a{
+    color: white;
+}
+
+.img-container {
+    position: absolute;
+    justify-items: center;
+    z-index: -1;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.head-container {
+    position: absolute;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: transparent;
+}
+
+.head-grid {
+    display: grid;
+    grid-template-columns: 6fr 2fr 3fr;
+    height: 100%;
+    grid-gap: 5px;
+    background-color: transparent;
+
+}
+
+.head-grid div {
+    background-color: transparent;
+}
+
+.pagebox-1 {
+    font-family: "matahari extended 700";
+    font-size: 110px;
+    padding-top: 9vh;
+    padding-left: 5vh;
+    margin: 0;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.pagebox-2 {
+    font-family: "matahari extended 600";
+    font-size: 28px;
+    padding-left: 5vh;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.pagebox-3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.pagebox-4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.pagebox-5 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-image: url(../images/text_spinner_main.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 300px;
+    margin-top: 6vh;
+}
+
+.pagebox-6 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+
+.pagebox-7 {
+    font-family: "matahari extended 400";
+    font-size: 18px;
+    padding: 20px 0 20px 120px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.pagebox-8 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
