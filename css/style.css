@@ -1,3 +1,7 @@
+:root {
+    --fnt-primary-300: #ffffff;
+}
+
 @font-face {
     font-family: "matahari extended 400";
     src: url(../matagari_font/MatahariExtended-400ExtReg.ttf);
@@ -11,8 +15,11 @@
     src: url(../matagari_font/MatahariExtended-700ExtBold.ttf);
 }
 
+html {
+    font-size: 62.5%;;
+}
 
-* {
+body {
     margin: 0;
     padding: 0;
     margin: 0;
@@ -40,7 +47,7 @@ img {
 }
 
 .nav-container {
-    max-width: 1800px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 20px 20px;
     margin-bottom: 2vh;
@@ -59,7 +66,7 @@ nav {
     display: inline;
     align-items: center;
     padding: 0 0 0 60px;
-    font-size: 16px;
+    font-size: 1.8rem;
 }
 
 .nav-links a{
@@ -68,89 +75,36 @@ nav {
 
 .img-container {
     position: absolute;
-    justify-items: center;
     z-index: -1;
-    max-width: 1800px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 20px 0 0;
+    max-width: 1400px;
 }
 
 .head-container {
-    position: absolute;
-    max-width: 1800px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
-    background-color: transparent;
 }
 
-.head-grid {
-    display: grid;
-    grid-template-columns: 6fr 2fr 3fr;
-    height: 100%;
-    grid-gap: 5px;
-    background-color: transparent;
-
-}
-
-.head-grid div {
-    background-color: transparent;
-}
-
-.pagebox-1 {
+.head-text h1 {
     font-family: "matahari extended 700";
-    font-size: 110px;
-    padding-top: 9vh;
-    padding-left: 5vh;
+    padding-top: clamp(40px, 10vw, 120px);
+    padding-left: clamp(40px, 10vw, 120px);
+    font-size: clamp(5rem, 8vw, 13rem);
     margin: 0;
-    grid-column-start: 1;
-    grid-column-end: 4;
 }
 
-.pagebox-2 {
-    font-family: "matahari extended 600";
-    font-size: 28px;
-    padding-left: 5vh;
-    grid-column-start: 1;
-    grid-column-end: 4;
+.head-text h2 {
+    padding: 0 0 0 50px;
+    font-size: clamp(1.6rem, 3vw, 2.8rem);
+    padding-left: clamp(40px, 10vw, 120px);
+    margin: 0;
 }
 
-.pagebox-3 {
-    grid-column-start: 1;
-    grid-column-end: 2;
+.follow-text {
+    margin-top: clamp(80px, 4vh, 700px);
+    font-size: clamp(1.4rem, 2vw, 1.8rem);
 }
 
-.pagebox-4 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
 
-.pagebox-5 {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    background-image: url(../images/text_spinner_main.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    height: 300px;
-    margin-top: 6vh;
-}
-
-.pagebox-6 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 6;
-}
-
-.pagebox-7 {
-    font-family: "matahari extended 400";
-    font-size: 18px;
-    padding: 20px 0 20px 120px;
-    grid-column-start: 2;
-    grid-column-end: 4;
-}
-
-.pagebox-8 {
-    grid-column-start: 2;
-    grid-column-end: 4;
-}
