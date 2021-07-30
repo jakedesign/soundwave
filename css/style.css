@@ -107,4 +107,78 @@ nav {
     font-size: clamp(1.4rem, 2vw, 1.8rem);
 }
 
+/* GRID */
+.grid-container {
+    margin-top: 4vh;
+}
 
+.lp-grid {
+    display: grid;
+    grid-template-rows: 2fr 1fr 0.1fr;
+    grid-gap: 5px;
+    justify-content: right;
+}
+
+/* .lp-grid div {
+    background-color: rgba(255, 255, 255, 0.29);
+} */
+
+.lp-grid .img {
+    height: 240px;
+    margin-right: 50px;
+}
+
+.spin-text {
+    display: flex;
+    justify-self: right;
+    align-items: center;
+    padding-right: 0px;
+    margin: 0;
+}
+
+.statement {
+    font-family: "matahari extended 400";
+    font-size: 2rem;
+    max-width: 530px;
+    line-height: 1.8;
+    display: flex;
+    justify-self: right;
+    margin-top: 10px;
+    padding-right: 19px;
+}
+
+.arrow {
+    background-image: url(../images/arrow-line.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 79px;
+}
+
+
+
+
+
+
+/* ANIMATION */
+
+.rotate {
+    animation: rotation 5.2s;
+}
+
+.linear {
+    animation-timing-function: linear;
+}
+
+.infinite {
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(359deg);
+    }
+}
