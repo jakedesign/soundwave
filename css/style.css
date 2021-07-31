@@ -95,19 +95,16 @@ nav {
     grid-gap: 5px;
 }
 
-/* .lp-grid div {
-    background-color: rgba(255, 255, 255, 0.29);
-}  */
-
 .lp-grid .img {
-    height: 200px;
+    height: 220px;
+    width: 220px;
 }
 
 .spin-text {
     display: flex;
-    justify-self: right;
-    align-self: center;
+    height: 90px;
     margin-right: 60px;
+    justify-self: right;
 }
 
 .statement {
@@ -135,7 +132,7 @@ nav {
 
 .infinite {
     animation-iteration-count: infinite;
-}
+} 
 
 @keyframes rotation {
     from {
