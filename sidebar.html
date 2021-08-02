@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/sidebar.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c7df9fc3cb.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
@@ -15,9 +17,11 @@
             <img src="images/logo.svg" alt="">
             <ul>
                 <div class="button-hs">
-                    <a class="home" href="#"><i class="fas fa-home fa-2x"></i></a>
+                    <a class="home" href="#"><span class="material-icons-round">home</span></a>
                     <div class="vl"></div>
-                    <a class="settings" href="#"><i class="fas fa-cog fa-2x"></i></a>
+                    <a class="settings" href="#"><span class="material-icons-round">
+                        settings
+                    </span></a>
                 </div>
                     <div class="hl"></div>
                 <li><a class="button-nm" href="#">New Mix</a></li>
@@ -28,12 +32,94 @@
         </div>
         <div class="main_content">
             <nav>
-                <div class="left-arrow"><i class="fas fa-chevron-left"></i></div>
-                <div class="right-arrow"><i class="fas fa-chevron-right"></i></div>
+                <div class="arrows">
+                    <a href=""><span class="material-icons-round">chevron_left</span></a>
+                    <a href=""><span class="material-icons-round">chevron_right</span></a>
+                </div>
+                <div class="right-nav">
+                    <div class="search">
+                        <span class="material-icons-round">search</span>
+                    </div>
+                    <div class="account">
+                        <img src="images/pofile-account.png" alt="">    
+                    </div>
+                </div>
             </nav>
+
+            <section class="mixes">
+                <h1>Recent Mixes</h1>
+                <div class="mix-wrapper">
+                    <div class="mix-grid">
+                        <div class="mix-1"></div>
+                        <div class="mix-2"></div>
+                        <div class="mix-3"></div>
+                        <div class="mix-4"></div>
+                        <div class="mix-5"></div>
+                        <div class="title-1">
+                            <h2>Mix #0036</h2>
+                            <h3>Vibe: Chill</h3>
+                        </div>
+                        <div class="title-2">
+                            <h2>Mix #0036</h2>
+                            <h3>Vibe: Chill</h3>
+                        </div>
+                        <div class="title-3">
+                            <h2>Mix #0036</h2>
+                            <h3>Vibe: Chill</h3>
+                        </div>
+                        <div class="title-4">
+                            <h2>Mix #0036</h2>
+                            <h3>Vibe: Chill</h3>
+                        </div>
+                        <div class="title-5">
+                            <h2>Mix #0036</h2>
+                            <h3>Vibe: Chill</h3>
+                        </div>
+                    </div>
+                </div>
+                <h1> Featured</h1>
+                <div class="feat-wrapper">
+                    <div class="feat-grid">
+                        <div class="feat-1"></div>
+                        <div class="feat-2"></div>
+                        <div class="feat-3"></div>
+                        <div class="feat-4"></div>
+                        <div class="feat-5"></div>
+                        <div class="titlefeat-1">
+                            <h2>Mix #0036</h2>
+                            <h3>Vibe: Chill</h3>
+                        </div>
+                        <div class="titlefeat-2">
+                            <h2>Mix #0036</h2>
+                            <h3>Vibe: Chill</h3>
+                        </div>
+                        <div class="titlefeat-3">
+                            <h2>Mix #0036</h2>
+                            <h3>Vibe: Chill</h3>
+                        </div>
+                        <div class="titlefeat-4">
+                            <h2>Mix #0036</h2>
+                            <h3>Vibe: Chill</h3>
+                        </div>
+                        <div class="titlefeat-5">
+                            <h2>Mix #0036</h2>
+                            <h3>Vibe: Chill</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
             
         </div>
-        <div class="bottombar"></div>
+        <div class="bottombar">
+
+    <div class="container-audio">
+        <audio controls loop autoplay>
+            <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/new_year_dubstep_minimix.ogg" type="audio/ogg">
+            Your browser dose not Support the audio Tag
+        </audio>
+    </div>
+
+        </div>
 
     </div>
 </body>
