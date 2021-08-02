@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "matahari extended 400";
+    src: url(../matagari_font/MatahariExtended-400ExtReg.ttf);
+}
+@font-face {
+    font-family: "matahari extended 600";
+    src: url(../matagari_font/MatahariExtended-600ExtSemBd.ttf);
+}
+@font-face {
+    font-family: "matahari extended 700";
+    src: url(../matagari_font/MatahariExtended-700ExtBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "matahari extended 400";
+}
+
+body {
+    background-color: #2A2828;
+    color: white;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.hl {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 20px 8px 20px 8px;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+/* SIDEBAR */
+
+.wrapper .sidebar ul {
+    padding: 40px 0 0 0;
+}
+
+.wrapper .sidebar ul li {
+    padding: 10px 0;
+}
+
+.sidebar .button-hs {
+    margin-bottom: 30px;
+}
+
+.wrapper .sidebar{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: #2A2828;
+    padding: 30px 20px;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.wrapper .sidebar img {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+
+.wrapper .sidebar ul li a{
+    padding: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.201);
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+}
+
+.button-hs {
+    padding: 11px 50px;
+    border: 1px solid rgba(255, 255, 255, 0.201);
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    background-color: rgba(196, 196, 196, 0.05);
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vl {
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    height: 30px;
+}
+
+.button-hs a:hover {
+    color: #3683F7;;
+}
+
+.button-nm {
+    background-color: rgba(85, 140, 120, 0.2);
+}
+
+.button-nm:hover {
+    background-color: rgba(85, 140, 120, 0.5);
+}
+
+.button-am {
+    background-color: rgba(66, 147, 192, 0.15);
+}
+
+.button-am:hover {
+    background-color: rgba(66, 147, 192, 0.5);
+}
+
+.button-ds {
+    background-color: rgba(120, 45, 141, 0.1);
+}
+
+.button-ds:hover {
+    background-color: rgba(120, 45, 141, 0.3);
+}
+
+/* MAIN CONTENT */
+
+.wrapper .main_content {
+    width: 100%;
+    margin-left: 320px;
+}
+
+
+
+
+
+
+
+
+
+
+/* BOTTOM MUSIC PLAYER */
+
+.bottombar {
+    background-color: #2A2828;
+    width: 100%;
+    min-height: 110px;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.200);
+}
