@@ -97,7 +97,7 @@ img {
 }
 
 .button-hs {
-    padding: 11px 50px;
+    padding: 10px 50px;
     border: 1px solid rgba(255, 255, 255, 0.201);
     border-top-left-radius: 10px 10px;
     border-top-right-radius: 10px 10px;
@@ -149,7 +149,9 @@ img {
 .wrapper .main_content {
     width: 100%;
     margin-left: 320px;
+    
 }
+
 
 
 
