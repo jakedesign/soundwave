@@ -47,7 +47,7 @@
             </nav>
 
             <section class="mixes">
-                <h1>Recent Mixes</h1>
+                <h1 class="top-heading">Recent Mixes</h1>
                 <div class="mix-wrapper">
                     <div class="mix-grid">
                         <div class="mix-1"></div>
@@ -77,7 +77,7 @@
                         </div>
                     </div>
                 </div>
-                <h1> Featured</h1>
+                <h1 class="second-heading"> Featured</h1>
                 <div class="feat-wrapper">
                     <div class="feat-grid">
                         <div class="feat-1"></div>
@@ -111,16 +111,42 @@
             
         </div>
         <div class="bottombar">
-
-    <div class="container-audio">
-        <audio controls loop autoplay>
-            <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/new_year_dubstep_minimix.ogg" type="audio/ogg">
-            Your browser dose not Support the audio Tag
-        </audio>
-    </div>
-
+            <div class="music-player">
+                <div class="music-container play">
+                    <audio src="music/Soulection 509_EXPLICIT_SOUNDCLOUD.mp3" id="audio"></audio>
+                    <div class="navigation">
+                        <button id="previous" class="action-btn">
+                            <span class="material-icons-round md-30">skip_previous</span>
+                        </button>
+                        <button id="play" class="action-btn">
+                            <span class="mtr material-icons-round md-70">play_circle</span>
+                            
+                        </button>
+                        <button id="next" class="action-btn">
+                            <span class="material-icons-round md-30">skip_next</span>
+                        </button>
+                    </div>
+                    <div class="time-start">
+                        <h2>00:00:00</h2>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time-end">
+                        <h2>00:00:00</h2>
+                    </div>
+                    <div class="songlist">
+                        <span class="material-icons-round">queue_music</span>
+                    </div>
+                    <div class="volume">
+                        <span class="material-icons-round">volume_up</span>
+                    </div>
+                    <div class="eye">
+                        <span class="material-icons-round">visibility</span>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </div>
 </body>
 </html>
