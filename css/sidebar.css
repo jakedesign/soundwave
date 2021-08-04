@@ -385,3 +385,9 @@ img {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+/* MUSIC PLAYER */
+
+audio {
+    width: 100%;
+}

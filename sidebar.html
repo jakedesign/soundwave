@@ -113,7 +113,7 @@
         <div class="bottombar">
             <div class="music-player">
                 <div class="music-container play">
-                    <audio src="music/soundwavesample.mp3" id="audio"></audio>
+
                     <div class="navigation">
                         <button id="previous" class="action-btn">
                             <span class="material-icons-round md-30">skip_previous</span>
@@ -126,7 +126,7 @@
                             <span class="material-icons-round md-30">skip_next</span>
                         </button>
                     </div>
-                    <div class="time-start">
+                    <!-- <div class="time-start">
                         <h2>00:00:00</h2>
                     </div>
                     <div class="progress-container">
@@ -134,7 +134,10 @@
                     </div>
                     <div class="time-end">
                         <h2>00:00:00</h2>
-                    </div>
+                    </div> -->
+                    <audio controls>
+                        <source src="music/soundwavesample.mp3" type="audio/mp3">
+                    </audio>
                     <div class="songlist">
                         <span class="material-icons-round">queue_music</span>
                     </div>
